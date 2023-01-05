@@ -65,6 +65,10 @@ class Post extends Model
 }
 ```
 
+When using the `ksuid` generator, the generated key will something like this: `pos_2JvL8Gv5mirjbIVAlSRFrC8EaWR`
+
+When using the `snowflake` generator, the generated key will something like this: `pos_451734027389370636`
+
 ## Testing
 
 ```bash
