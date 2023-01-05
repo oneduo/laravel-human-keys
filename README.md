@@ -91,6 +91,8 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 - [Charaf Rezrazi](https://github.com/rezrazi)
 - [All Contributors](../../contributors)
+- [godruoyi/php-snowflake](https://github.com/godruoyi/php-snowflake)
+- [tuupola/ksuid](https:/:github.com/tuupola/ksuid)
 
 ## License
 
