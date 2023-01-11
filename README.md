@@ -1,9 +1,9 @@
 # Laravel Human Keys
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/oneduo/laravel-human-model-keys.svg?style=flat-square)](https://packagist.org/packages/oneduo/laravel-human-model-keys)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/oneduo/laravel-human-model-keys/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/oneduo/laravel-human-model-keys/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/oneduo/laravel-human-model-keys/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/oneduo/laravel-human-model-keys/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/oneduo/laravel-human-model-keys.svg?style=flat-square)](https://packagist.org/packages/oneduo/laravel-human-model-keys)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/oneduo/laravel-human-keys.svg?style=flat-square)](https://packagist.org/packages/oneduo/laravel-human-keys)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/oneduo/laravel-human-keys/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/oneduo/laravel-human-keys/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/oneduo/laravel-human-keys/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/oneduo/laravel-human-keys/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/oneduo/laravel-human-keys.svg?style=flat-square)](https://packagist.org/packages/oneduo/laravel-human-keys)
 
 A package to use human readable keys in your Laravel models. Inspired by Stripe's id generation procedures.
 
