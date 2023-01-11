@@ -7,6 +7,13 @@
 
 A package to use human readable keys in your Laravel models. Inspired by Stripe's id generation procedures.
 
+Enables you to have KSUID keys in your models, which are human readable and sortable.
+
+Example:
+
+- `pos_2JvL8Gv5mirjbIVAlSRFrC8EaWR` for `Models/Post.php`
+- `usr_p6UEyCc8D8ecLijAI5zVwOTP3D0` for `Models/User.php`
+
 ## Installation
 
 You can install the package via composer:
@@ -68,6 +75,27 @@ class Post extends Model
 When using the `ksuid` generator, the generated key will something like this: `pos_2JvL8Gv5mirjbIVAlSRFrC8EaWR`
 
 When using the `snowflake` generator, the generated key will something like this: `pos_451734027389370636`
+
+### Overriding the key prefix
+
+You may set your own key prefix for each model by implementing the following method:
+
+```php
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Oneduo\LaravelHumanKeys\Concerns\HasHumanKey;
+
+class Post extends Model
+{
+    use HasHumanKey;
+    
+    public static function getKeyPrefix() : string {
+        // prefix without _ underscore as it gets added by the generator
+        return 'post_prefix'
+    }
+}
+```
 
 ## Testing
 
