@@ -1,12 +1,18 @@
 {
-  "name": "oneduo/laravel-human-model-keys",
-  "description": "This is my package laravel-human-model-keys",
+  "name": "oneduo/laravel-human-keys",
+  "description": "Provides configurable and customizable Stripe-like keys for your Eloquent models",
   "keywords": [
     "oneduo",
     "laravel",
-    "laravel-human-model-keys"
+    "laravel-human-keys",
+    "stripe",
+    "uuid",
+    "ksuid",
+    "model",
+    "snowflake",
+    "keys"
   ],
-  "homepage": "https://github.com/oneduo/laravel-human-model-keys",
+  "homepage": "https://github.com/oneduo/laravel-human-keys",
   "license": "MIT",
   "authors": [
     {
@@ -62,10 +68,7 @@
     "laravel": {
       "providers": [
         "HumanModelKeysServiceProvider"
-      ],
-      "aliases": {
-        "LaravelHumanModelKeys": "Oneduo\\LaravelHumanModelKeys\\Facades\\LaravelHumanModelKeys"
-      }
+      ]
     }
   },
   "minimum-stability": "dev",
