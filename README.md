@@ -14,6 +14,15 @@ Example:
 - `pos_2JvL8Gv5mirjbIVAlSRFrC8EaWR` for `Models/Post.php`
 - `usr_p6UEyCc8D8ecLijAI5zVwOTP3D0` for `Models/User.php`
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Changelog](#changelog)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [License](#license)
+
 ## Installation
 
 You can install the package via composer:
