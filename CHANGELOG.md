@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-human-keys` will be documented in this file.
 
+## v0.1.2 - 2023-02-04
+
+**Full Changelog**: https://github.com/oneduo/laravel-human-keys/compare/v0.1.1...v0.1.2
+
 ## v0.1.1 - 2023-02-01
 
 ### What's Changed
